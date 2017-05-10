@@ -52,7 +52,7 @@
 }
 .container .columns h4 {
 	text-align: center;
-	color: #D94F62;
+	color: #3B546B;
 }
 .primary_header {
 	width: 100%;
@@ -182,6 +182,19 @@ section .left_article .chicago {
 }
 .footer {
 	background-color: #3B546B;
+}
+
+.footer {
+	text-align: center;
+	background-color: #3B546B;
+	color: #FFFFFF;
+	text-transform: capitalize;
+	font-weight: normal;
+	letter-spacing: 2px;
+	border-top-width: 2px;
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	font-style: italic;
+	padding-bottom: 25px;
 }
 .title {
 	font-weight: bold;

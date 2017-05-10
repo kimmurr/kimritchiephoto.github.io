@@ -27,20 +27,27 @@
         <li><a href="about.html">ABOUT</a></li>
         <li><a href="contact.html">CONTACT</a></li>
       </ul>
-    </nav>
+	  </nav>
   </header>
   <section>
     <h2 class="noDisplay">Main Content</h2>
     <article class="left_article">
-      <h3>Email or call and let's discuss your portrait session!</h3>
+      <h3>I look forward to hearing from you!</h3>
       <p>I love taking photos. &nbsp;I love capturing memories. &nbsp;And I would love to capture memories for your family. &nbsp;Please contact me, let's get to know each other and meet for a latte (and a beverage of your choice) to discuss your portrait session. </p>
       <form id="form1" name="form1" method="post">
-        Content for form Goes Here
-      </form>
+        <input name="Name" type="text" required id="Name" placeholder="First &amp; Last Name" value="Name" size="70" maxlength="60">
+        <input name="Email" type="email" required id="Email" placeholder="Email Address" title="Email Address" value="Email" size="70" maxlength="200">
+        <input name="Phone" type="tel" id="Phone" placeholder="Phone Number" pattern="(###) ###-####" title="Phone" size="70" maxlength="20">
+        <input type="text" placeholder="How did you hear about me?" size="70" maxlength="200">
+        <input name="Session" type="text" id="Session" placeholder="Tell me a little about the portraits you'd like!" size="70" maxlength="400">
+        
+        <input name="Submit" type="submit" id="Submit" title="Submit" value="Submit">
+      </form> 
     </article>
     <aside class="right_article"><img src="images/Darbyfamily.jpg" alt="" width="630" height="450" class="placeholder"/> </aside>
   </section>
 <footer class="secondary_header footer">
+    <div class="footer">Family & Lifestyle Photographer Serving the Western Chicago Suburbs</div>
     <div class="copyright">&copy;2016 - kim ritchie photography</div>
   </footer>
 </div>
